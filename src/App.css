@@ -1,0 +1,40 @@
+form {
+  margin: 0.5em;
+}
+
+button {
+  background-color: #282c34;
+  color: white;
+  border: none;
+  height: 2.5em;
+  margin: 0.25em;
+}
+
+button:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+.line {
+  margin-left: 0.5em;
+}
+
+input[type="text"] {
+  border: solid seagreen;
+  border-radius: 1em;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+li {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
